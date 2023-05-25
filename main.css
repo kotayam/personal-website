@@ -1,0 +1,38 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.topbar {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(82, 81, 81);
+    border-style: groove;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 12px;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.kota-pic {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100px;
+    float: left;
+    margin: 10px;
+}
+
+.aboutme {
+    font-size: 18px;
+}
