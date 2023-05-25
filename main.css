@@ -1,7 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body {
+    background: rgb(218, 218, 218);
+    font-family: Tahoma, 'Segoe UI', Geneva, Verdana, sans-serif;
 }
 
 /* header */
@@ -47,10 +51,11 @@
     background-color: cornsilk;
     text-decoration: none;
     font-size: 2em;
+    font-weight: 300;
     color: rgb(82, 81, 81);
     border: solid 2px rgb(73, 73, 73);
     border-radius: 0.5em;
-    padding: 0.3em;
+    padding: 0.32em;
     margin-right: 0.5em;
 }
 
@@ -61,7 +66,6 @@
 
 /* main */
 #main {
-    height: 40em;
     background: rgb(218, 218, 218);
 }
 
@@ -73,20 +77,46 @@
 }
 
 #main-inner h2 {
-    font-size: 2.5em;
+    font-size: 3em;
     font-weight: 450;
     color: rgb(196, 64, 64);
-    border-bottom: 0.2em double rgb(230, 230, 230);
+    padding-top: 0.5em;
+}
+
+#main-content {
+    border-top: 0.5em double rgb(230, 230, 230);
+    border-bottom: 0.5em double rgb(230, 230, 230);
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
 
 #kota-pic {
-    width: 25em;
-    height: 25em;
+    width: 23em;
+    height: 23em;
     object-fit: cover;
+    border: 0.3em solid rgb(212, 73, 73);
     border-radius: 12.5em;
     float: left;
-    margin-top: 1em;
     margin-right: 2em;
+}
+
+#main-content ul {
+    list-style: none;
+}
+
+#main-content ul li {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.logo {
+    width: 2em;
+}
+
+.weblink {
+    position: absolute;
+    font-size: 1.5em;
+    margin-left: 1em;
 }
 
 #main-text p{
@@ -98,4 +128,18 @@
 
 #main-text p a {
     color: rgb(196, 64, 64);
+}
+
+/* footer */
+#footer {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background: rgb(218, 218, 218);
+    padding-top: 1em;
+}
+
+#footer a {
+    color: rgb(196, 64, 64);
+    font-size: 1.2em;
 }
