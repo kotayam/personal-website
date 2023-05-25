@@ -1,28 +1,84 @@
 * {
+    margin: 0;
+    padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h1 {
-    font-size: 50px;
+/* header */
+#header {
+    width: 100%;
+    height: 8em;
+    background: rgb(212, 73, 73);
 }
 
-h2 {
+#header-inner {
+    position: relative;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#name {
+    position: absolute;
+    left: 0em;
+    bottom: 0em;
+}
+
+#name h1 {
+    font-size: 6em;
+    font-weight: 450;
+    color: whitesmoke;
+}
+
+#menu {
+    position: absolute;
+    right: 0em;
+    bottom: 1em;
+}
+#menu ul {
+    list-style: none;
+}
+#menu li {
+    float: left;
+}
+
+#menu li a {
+    display: block;
+    background-color: cornsilk;
+    text-decoration: none;
+    font-size: 2em;
+    color: rgb(82, 81, 81);
+    border: solid 2px rgb(73, 73, 73);
+    border-radius: 0.5em;
+    padding: 0.3em;
+    margin-right: 0.5em;
+}
+
+#menu li a.active {
+    background-color:darkcyan;
+    color: whitesmoke
+}
+
+/* main */
+#main {
+    height: 20em;
+    background: lightgray;
+}
+
+#main-inner {
+    position: relative;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.subtitle {
     font-size: 30px;
     font-weight: 400;
     text-decoration: underline;
 }
 
-.topbar {
-    text-decoration: none;
-    font-size: 20px;
-    color: rgb(82, 81, 81);
-    border-style: groove;
-    border-width: 3px;
-    border-color: black;
-    border-radius: 12px;
-    padding: 10px;
-    margin-right: 20px;
-}
+
 
 .kota-pic {
     width: 200px;
