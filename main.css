@@ -83,9 +83,8 @@ html, body {
     padding-top: 0.5em;
 }
 
-#main-content {
+.main-content {
     border-top: 0.5em double rgb(230, 230, 230);
-    border-bottom: 0.5em double rgb(230, 230, 230);
     padding-top: 3em;
     padding-bottom: 3em;
 }
@@ -100,11 +99,11 @@ html, body {
     margin-right: 2em;
 }
 
-#main-content ul {
+.main-content ul {
     list-style: none;
 }
 
-#main-content ul li {
+.main-content ul li {
     display: block;
     margin-bottom: 0.5em;
 }
@@ -115,8 +114,47 @@ html, body {
 
 .weblink {
     position: absolute;
+    color: rgb(196, 64, 64);
     font-size: 1.5em;
     margin-left: 1em;
+}
+
+.activities {
+    border: 0.1em dotted rgb(151, 151, 151);
+    padding: 0.7em;
+}
+.thumbnail {
+    width: 15em;
+}
+
+.description {
+    position: absolute;
+    display: inline-block;
+    padding: 0.7em;
+}
+
+.description a {
+    color: rgb(196, 64, 64);
+    font-size: 2em;
+    margin-left: 1em;
+}
+.description p {
+    color: rgb(53, 53, 53);
+    font-size: 1.5em;
+    margin-left: 1em;
+}
+
+#quick-jump li {
+    float: left;
+    margin-right: 1.5em;
+}
+
+#quick-jump li a {
+    font-size: 1.6em;
+    text-decoration: none;
+    color: rgb(53, 53, 53);
+    border: 0.15em groove;
+    padding: 0.1em;
 }
 
 #main-text p{
@@ -132,11 +170,13 @@ html, body {
 
 /* footer */
 #footer {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     text-align: center;
     background: rgb(218, 218, 218);
+    border-top: 0.6em double rgb(230, 230, 230);
     padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 #footer a {
