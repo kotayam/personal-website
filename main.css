@@ -129,8 +129,8 @@ html, body {
 }
 
 #kota-pic {
-    width: 23em;
-    height: 23em;
+    max-width: 23em;
+    height: auto;
     object-fit: cover;
     border: 0.3em solid rgb(212, 73, 73);
     border-radius: 12.5em;
@@ -148,7 +148,7 @@ html, body {
 }
 
 .logo {
-    width: 2em;
+    max-width: 2em;
 }
 
 .weblink {
@@ -164,7 +164,8 @@ html, body {
 }
 
 .thumbnail {
-    width: 15em;
+    max-width: 15em;
+    height: auto;
 }
 
 .description {
