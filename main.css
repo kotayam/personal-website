@@ -28,7 +28,6 @@ html, body {
     }
 
     #name {
-        position: absolute;
         left: 0em;
         bottom: 0.7em;
     }
@@ -40,7 +39,6 @@ html, body {
     }
 
     #sites {
-        position: relative;
         margin: 0 auto;
         margin-top: 0.5em;
     }
@@ -74,10 +72,9 @@ html, body {
     }
 
     #menu {
-        position: absolute;
-        right: 0em;
-        bottom: 1em;
+        float: right;
     }
+
     #menu ul {
         list-style: none;
     }
@@ -94,8 +91,8 @@ html, body {
         color: rgb(82, 81, 81);
         border: solid 2px rgb(73, 73, 73);
         border-radius: 0.5em;
-        padding: 0.32em;
-        margin-right: 0.5em;
+        padding: 0.25em;
+        margin-left: 10px;
     }
 
     #menu li a.active {
@@ -111,7 +108,6 @@ html, body {
         top: 0;
         z-index: 999;
         width: 100%;
-        height: 150px;
         background-image: linear-gradient(rgb(212, 73, 73), rgb(255, 50, 50));
         border-bottom: solid rgb(212, 73, 73);
     }
@@ -128,7 +124,7 @@ html, body {
     }
     
     #name h1 {
-        font-size: 45px;
+        font-size: 40px;
         font-weight: 450;
         color: whitesmoke;
     }
@@ -142,18 +138,18 @@ html, body {
     }
     
     #github a img {
-        width: 30px;
+        width: 28px;
         margin-right: 20px;
     }
     
     #linkedin a img {
-        width: 30px;
+        width: 28px;
         filter: invert(1);
         margin-right: 20px;
     }
     
     #email a img {
-        width: 30px;
+        width: 28px;
         filter: invert(1);
     }
     
@@ -176,7 +172,7 @@ html, body {
         display: block;
         background-color: cornsilk;
         text-decoration: none;
-        font-size: 18px;
+        font-size: 15px;
         font-weight: 300;
         color: rgb(82, 81, 81);
         border: solid 1px rgb(73, 73, 73);
